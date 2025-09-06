@@ -1,0 +1,23 @@
+{
+  "compatibility_date": "2025-04-01",
+  "main": "src/index.ts",
+  "name": "openauth",
+  "upload_source_maps": true,
+  "kv_namespaces": [
+    {
+      "binding": "AUTH_STORAGE",
+      "id": "7792f406f40e4f3796e092e2c063fea0"
+    }
+  ],
+  "d1_databases": [
+    {
+      "binding": "AUTH_DB",
+      "database_name": "openauth-auth-db",
+      "database_id": "0a2b690e-29b2-4265-ab42-682b442bd7b7"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  },
+  "compatibility_flags": ["nodejs_compat"]
+}
